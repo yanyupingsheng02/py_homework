@@ -95,7 +95,7 @@ def hospital(*pokemon: Pokemon):
     print('治疗成功，欢迎下次光临')
 
 
-pika = Pokemon('皮卡丘', '点击', 40, 80, 80, 40, 35, 80)
+pika = Pokemon('皮卡丘', '电击', 40, 80, 80, 40, 35, 80)
 littlefire = Pokemon('小火龙', '喷火', 35, 100, 100, 40, 40, 65)
 battle(pika, littlefire)
 print(pika.name+'hp:', pika.hp,littlefire.name + 'hp:', littlefire.hp)

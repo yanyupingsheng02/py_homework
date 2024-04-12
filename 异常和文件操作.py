@@ -24,6 +24,8 @@
 try:
     with open(r"E:\学习资料\python\资料\HOMEWORK\课件\python基础\补充.txt" ,"r",encoding="UTF-8") as file:
         print(file.read())
+except(BaseException):
+    print("存在异常")
 except(UnicodeDecodeError):
     print("解码方式有误")
 except:

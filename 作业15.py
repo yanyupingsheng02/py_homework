@@ -26,9 +26,9 @@ class Chinese(People):
         print("我是中国人")
 
 
-zhangsan = Chinese("张三",3)
+zhangsan = Chinese("张三", 3)
 zhangsan.say()
-print("姓名"+zhangsan.name,"年龄：",zhangsan.age)
+print("姓名"+zhangsan.name, "年龄：",zhangsan.age)
 
 # 附加5
 
